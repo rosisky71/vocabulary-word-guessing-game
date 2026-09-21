@@ -38,3 +38,10 @@ h3 {
 h1 {
     letter-spacing: 0.25rem;
 }
+
+@media (max-width:576px) {
+    .fs-6 {
+        font-size: 0.75rem !important;
+    }
+
+}
