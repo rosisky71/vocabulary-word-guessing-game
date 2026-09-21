@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // quit current game round
     document.getElementById('quit-btn').addEventListener('click', () => {
-        window.location.href = `/?action=restart&score=${score}`;
+        window.location.href = `index.html?action=restart&score=${score}`;
 
     });
 
