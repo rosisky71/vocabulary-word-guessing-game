@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch words asynchronously
     async function fetchWords() {
         try {
-            const response = await fetch('../data/words.json');
+            const response = await fetch('/data/words.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
